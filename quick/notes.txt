@@ -1,0 +1,19 @@
+home
+navigation
+about
+cta-1
+team
+testimonials
+cta-2
+services
+portfolio
+facts
+blog
+contact
+footer
+
+ class="img-responsive"
+
+div.container
+div.row
+div.col-sm-12

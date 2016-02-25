@@ -1,0 +1,334 @@
+/* line 1, ../scss/_scaffolding.scss */
+body {
+  font‐family: "Lato", sans-serif;
+  font‐size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background‐color: white;
+}
+
+/* line 9, ../scss/_scaffolding.scss */
+a {
+  color: #333333;
+}
+/* line 12, ../scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+/* line 4, ../scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font‐weight: 700;
+  line-height: 1.1;
+  color: #333333;
+}
+
+/* line 12, ../scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, ../scss/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 20, ../scss/_typography.scss */
+h2 {
+  font‐size: 2em;
+}
+
+/* line 24, ../scss/_typography.scss */
+h3 {
+  font‐size: 1.5em;
+}
+
+/* line 28, ../scss/_typography.scss */
+h4 {
+  font‐size: 1em;
+}
+
+/* line 33, ../scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 43, ../scss/_typography.scss */
+.home-h1 {
+  color: #25cbf5;
+  font-size: 4.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 51, ../scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 55, ../scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 1, ../scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 7, ../scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 13, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+/* line 16, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #25cbf5;
+}
+
+/* line 1, ../scss/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, ../scss/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #999999;
+}
+/* line 18, ../scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 24, ../scss/_buttons.scss */
+.btn-cta {
+  background-color: #25cbf5;
+  color: white;
+}
+/* line 29, ../scss/_buttons.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: #0ab2dd;
+  color: white;
+}
+
+/* line 35, ../scss/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 40, ../scss/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #353739;
+}
+
+/* line 1, ../scss/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/_forms.scss */
+label {
+  font-weight: 400;
+}
+
+/* line 1, ../scss/_other.scss */
+#home {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 6, ../scss/_other.scss */
+#cta-1 {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+/* line 11, ../scss/_other.scss */
+#testimonials {
+  background-color: #333333;
+}
+
+/* line 15, ../scss/_other.scss */
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0;
+}
+
+/* line 20, ../scss/_other.scss */
+#services {
+  background-color: #333333;
+}
+
+/* line 24, ../scss/_other.scss */
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 29, ../scss/_other.scss */
+#footer {
+  background-color: #333333;
+}
+
+/* line 33, ../scss/_other.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 38, ../scss/_other.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 44, ../scss/_other.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 49, ../scss/_other.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 53, ../scss/_other.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5;
+}
+
+/* line 64, ../scss/_other.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 73, ../scss/_other.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 77, ../scss/_other.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 81, ../scss/_other.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 86, ../scss/_other.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 90, ../scss/_other.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #999999;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+
+/* line 99, ../scss/_other.scss */
+.services-col {
+  color: #25cbf5;
+}
+
+/* line 103, ../scss/_other.scss */
+.services-col h3 {
+  color: #25cbf5;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 111, ../scss/_other.scss */
+.services-col p {
+  color: #999999;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 118, ../scss/_other.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 129, ../scss/_other.scss */
+.contact-hours .fa {
+  color: #25cbf5;
+}
+
+/* line 133, ../scss/_other.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #999999;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+}
